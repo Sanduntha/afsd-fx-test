@@ -18,7 +18,6 @@ public class CalcController {
     private int result;
 
     @FXML
-    //Add Number
     void addition(ActionEvent event) {
         int num1 = Integer.parseInt(txtNum1.getText());
         int num2 = Integer.parseInt(txtNum2.getText());
@@ -26,7 +25,6 @@ public class CalcController {
     }
 
     @FXML
-    //Divide Number
     void divison(ActionEvent event) {
         int num1 = Integer.parseInt(txtNum1.getText());
         int num2 = Integer.parseInt(txtNum2.getText());
@@ -34,7 +32,6 @@ public class CalcController {
     }
     
     @FXML
-    //Multiplication Number
     void multipication(ActionEvent event) {
         int num1 = Integer.parseInt(txtNum1.getText());
         int num2 = Integer.parseInt(txtNum2.getText());
@@ -42,7 +39,6 @@ public class CalcController {
     }
 
     @FXML
-    //Subtraction Number
     void substraction(ActionEvent event) {
         int num1 = Integer.parseInt(txtNum1.getText());
         int num2 = Integer.parseInt(txtNum2.getText());
