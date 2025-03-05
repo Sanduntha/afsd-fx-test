@@ -8,7 +8,6 @@ import javax.swing.*;
 
 public class CalcController {
 
-
     @FXML
     private TextField txtNum1;
 
