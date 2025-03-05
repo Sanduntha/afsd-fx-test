@@ -13,6 +13,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("calc.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Welcome!");
+        stage.setTitle("Welcome to Calculator!");
         stage.setScene(scene);
         System.out.println("Hello");
         stage.show();
